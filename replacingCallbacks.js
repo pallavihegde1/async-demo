@@ -1,13 +1,3 @@
-// console.log('Before');
-// getUser(1, (user) => {
-//   console.log('User', user)
-//   //after get user if we want to get repos
-//   getRepos(1, (repos) => {
-//     console.log('Repos', repos)
-//   })
-// });
-// console.log('After');
-
 getUser(1)
 .then(user => {
   console.log('User', user)
